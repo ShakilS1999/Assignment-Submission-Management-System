@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37516.0 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentSubmissionManagement.API", "AssignmentSubmissionManagement.API\AssignmentSubmissionManagement.API.csproj", "{22CEF2F6-8A3A-42E1-A279-F0C49B8C604C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AssignmentSubmissionManagement.Tests", "AssignmentSubmissionManagement.Tests\AssignmentSubmissionManagement.Tests.csproj", "{0FB7DDAF-FFCF-411E-93C9-499A736F71C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22CEF2F6-8A3A-42E1-A279-F0C49B8C604C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CEF2F6-8A3A-42E1-A279-F0C49B8C604C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CEF2F6-8A3A-42E1-A279-F0C49B8C604C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CEF2F6-8A3A-42E1-A279-F0C49B8C604C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FB7DDAF-FFCF-411E-93C9-499A736F71C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FB7DDAF-FFCF-411E-93C9-499A736F71C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FB7DDAF-FFCF-411E-93C9-499A736F71C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FB7DDAF-FFCF-411E-93C9-499A736F71C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8379406D-57DC-4645-A8FF-EE18E9F5FC74}
+	EndGlobalSection
+EndGlobal

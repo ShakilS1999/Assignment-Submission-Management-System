@@ -1,0 +1,50 @@
+# ==============================
+# Visual Studio
+# ==============================
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ==============================
+# Build Results
+# ==============================
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# ==============================
+# Test Results
+# ==============================
+TestResults/
+*.trx
+coverage/
+coverage.*
+
+# ==============================
+# Logs
+# ==============================
+*.log
+logs/
+
+# ==============================
+# NuGet
+# ==============================
+packages/
+*.nupkg
+
+# ==============================
+# Local / Sensitive Configuration
+# ==============================
+secrets.json
+appsettings.Local.json
+
+# ==============================
+# OS / Editor Files
+# ==============================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
