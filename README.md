@@ -200,7 +200,7 @@ SQL Server was selected as an equivalent relational database technology suitable
 
 ```text
 
-AssignmentSubmissionManagement.API/
+Assignment-Submission-Management-System/
 
 │
 
@@ -583,7 +583,7 @@ From:
 
 ```text
 
-AssignmentSubmissionManagement.API/AssignmentSubmissionManagement.API
+AssignmentSubmissionManagement.API
 
 ```
 
