@@ -366,9 +366,8 @@ Recommended development tools:
 
 ```bash
 
-git clone <YOUR_REPOSITORY_URL>
-
-cd AssignmentSubmissionManagement.API
+git clone https://github.com/ShakilS1999/Assignment-Submission-Management-System.git
+cd Assignment-Submission-Management-System
 
 ```
 
