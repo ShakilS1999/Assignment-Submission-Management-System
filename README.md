@@ -1,8 +1,8 @@
-\# Assignment \& Submission Management System
+# Assignment & Submission Management System
 
 
 
-A full-stack role-based school/college application built for the \*\*Assistant Software Engineer Recruitment Project\*\*.
+A full-stack role-based school/college application built for the **Assistant Software Engineer Recruitment Project**.
 
 
 
@@ -10,167 +10,167 @@ The system allows administrators to manage academic setup and users, teachers to
 
 
 
-\---
+---
 
 
 
-\## Main Features
+## Main Features
 
 
 
-\### Admin
+### Admin
 
 
 
-\* Manage Admin, Teacher, and Student users
+* Manage Admin, Teacher, and Student users
 
-\* Create and update Classes/Courses
+* Create and update Classes/Courses
 
-\* Create and update Subjects
+* Create and update Subjects
 
-\* Activate or deactivate users
+* Activate or deactivate users
 
-\* Activate or deactivate Classes/Courses
+* Activate or deactivate Classes/Courses
 
-\* Activate or deactivate Subjects
+* Activate or deactivate Subjects
 
-\* Assign Teachers to specific Classes/Courses and Subjects
+* Assign Teachers to specific Classes/Courses and Subjects
 
-\* Enroll Students into Classes/Courses
+* Enroll Students into Classes/Courses
 
-\* Activate or deactivate Student Enrollments
+* Activate or deactivate Student Enrollments
 
-\* View all Assignments
+* View all Assignments
 
-\* View all Student Submissions
+* View all Student Submissions
 
 
 
-\### Teacher
+### Teacher
 
 
 
-\* View assigned Classes/Courses and Subjects
+* View assigned Classes/Courses and Subjects
 
-\* Create Assignments
+* Create Assignments
 
-\* Update own Assignments
+* Update own Assignments
 
-\* Delete own Assignments when no submissions exist
+* Delete own Assignments when no submissions exist
 
-\* Assign an Assignment to a specific Class/Course and Subject
+* Assign an Assignment to a specific Class/Course and Subject
 
-\* Define:
+* Define:
 
 
 
-&#x20; \* Title
+  * Title
 
-&#x20; \* Description
+  * Description
 
-&#x20; \* Deadline
+  * Deadline
 
-&#x20; \* Maximum Marks
+  * Maximum Marks
 
-\* Save an Assignment as Draft
+* Save an Assignment as Draft
 
-\* Publish an Assignment
+* Publish an Assignment
 
-\* Allow or disallow Submission Updates
+* Allow or disallow Submission Updates
 
-\* View Student Submissions for own Assignments
+* View Student Submissions for own Assignments
 
-\* Assign Marks
+* Assign Marks
 
-\* Provide Feedback
+* Provide Feedback
 
-\* Change Submission Status
+* Change Submission Status
 
 
 
-\### Student
+### Student
 
 
 
-\* View published Assignments assigned to the student's enrolled Class/Course
+* View published Assignments assigned to the student's enrolled Class/Course
 
-\* View Assignment details and deadline
+* View Assignment details and deadline
 
-\* Submit an Assignment answer
+* Submit an Assignment answer
 
-\* Update own Submission before the deadline when updates are allowed
+* Update own Submission before the deadline when updates are allowed
 
-\* View Submission status
+* View Submission status
 
-\* View Marks
+* View Marks
 
-\* View Teacher Feedback
+* View Teacher Feedback
 
 
 
-\---
+---
 
 
 
-\## Technology Stack
+## Technology Stack
 
 
 
-\### Frontend
+### Frontend
 
 
 
-\* Next.js
+* Next.js
 
-\* React
+* React
 
-\* TypeScript
+* TypeScript
 
-\* Tailwind CSS
+* Tailwind CSS
 
-\* Axios
+* Axios
 
-\* Responsive UI
+* Responsive UI
 
-\* Client-side form validation
+* Client-side form validation
 
 
 
-\### Backend
+### Backend
 
 
 
-\* ASP.NET Core Web API
+* ASP.NET Core Web API
 
-\* C#
+* C#
 
-\* .NET 8
+* .NET 8
 
-\* RESTful API
+* RESTful API
 
-\* Entity Framework Core
+* Entity Framework Core
 
-\* JWT Authentication
+* JWT Authentication
 
-\* Role-Based Authorization
+* Role-Based Authorization
 
-\* Data Annotation Validation
+* Data Annotation Validation
 
-\* Logging
+* Logging
 
-\* Swagger / OpenAPI
+* Swagger / OpenAPI
 
 
 
-\### Database
+### Database
 
 
 
-\* Microsoft SQL Server
+* Microsoft SQL Server
 
-\* SQL Server Express
+* SQL Server Express
 
-\* Entity Framework Core Migrations
+* Entity Framework Core Migrations
 
 
 
@@ -178,23 +178,23 @@ SQL Server was selected as an equivalent relational database technology suitable
 
 
 
-\### Testing
+### Testing
 
 
 
-\* xUnit
+* xUnit
 
-\* Entity Framework Core InMemory
+* Entity Framework Core InMemory
 
-\* Moq
-
-
-
-\---
+* Moq
 
 
 
-\## Project Structure
+---
+
+
+
+## Project Structure
 
 
 
@@ -272,11 +272,11 @@ AssignmentSubmissionManagement.API/
 
 
 
-\---
+---
 
 
 
-\## Architecture
+## Architecture
 
 
 
@@ -288,19 +288,19 @@ The backend uses a simple controller-based ASP.NET Core Web API architecture:
 
 Next.js Frontend
 
-&#x20;      ↓
+       ↓
 
 ASP.NET Core API Controllers
 
-&#x20;      ↓
+       ↓
 
 ApplicationDbContext
 
-&#x20;      ↓
+       ↓
 
 Entity Framework Core
 
-&#x20;      ↓
+       ↓
 
 SQL Server
 
@@ -316,11 +316,11 @@ Request models are used where needed for API input validation.
 
 
 
-\---
+---
 
 
 
-\## Prerequisites
+## Prerequisites
 
 
 
@@ -328,15 +328,15 @@ Install the following before running the project:
 
 
 
-\* .NET 8 SDK
+* .NET 8 SDK
 
-\* SQL Server Express
+* SQL Server Express
 
-\* Node.js
+* Node.js
 
-\* npm
+* npm
 
-\* Git
+* Git
 
 
 
@@ -344,29 +344,29 @@ Recommended development tools:
 
 
 
-\* Visual Studio 2022
+* Visual Studio 2022
 
-\* Visual Studio Code
+* Visual Studio Code
 
-\* SQL Server Management Studio
-
-
-
-\---
+* SQL Server Management Studio
 
 
 
-\# Backend Setup
+---
 
 
 
-\## 1. Clone the Repository
+# Backend Setup
+
+
+
+## 1. Clone the Repository
 
 
 
 ```bash
 
-git clone <YOUR\_REPOSITORY\_URL>
+git clone <YOUR_REPOSITORY_URL>
 
 cd AssignmentSubmissionManagement.API
 
@@ -374,11 +374,11 @@ cd AssignmentSubmissionManagement.API
 
 
 
-\---
+---
 
 
 
-\## 2. Restore .NET Packages
+## 2. Restore .NET Packages
 
 
 
@@ -394,11 +394,11 @@ dotnet restore
 
 
 
-\---
+---
 
 
 
-\## 3. Database Configuration
+## 3. Database Configuration
 
 
 
@@ -408,11 +408,11 @@ The default development database uses SQL Server Express:
 
 ```text
 
-Server=.\\SQLEXPRESS;
+Server=.\SQLEXPRESS;
 
 Database=AssignmentSubmissionManagementDb;
 
-Trusted\_Connection=True;
+Trusted_Connection=True;
 
 TrustServerCertificate=True;
 
@@ -434,11 +434,11 @@ Example:
 
 ```env
 
-Jwt\_\_Key=CHANGE\_ME\_WITH\_A\_STRONG\_JWT\_SECRET
+Jwt__Key=CHANGE_ME_WITH_A_STRONG_JWT_SECRET
 
 
 
-ConnectionStrings\_\_DefaultConnection=Server=.\\SQLEXPRESS;Database=AssignmentSubmissionManagementDb;Trusted\_Connection=True;TrustServerCertificate=True;
+ConnectionStrings__DefaultConnection=Server=.\SQLEXPRESS;Database=AssignmentSubmissionManagementDb;Trusted_Connection=True;TrustServerCertificate=True;
 
 ```
 
@@ -448,11 +448,11 @@ ConnectionStrings\_\_DefaultConnection=Server=.\\SQLEXPRESS;Database=AssignmentS
 
 
 
-\---
+---
 
 
 
-\## 4. Configure JWT Secret
+## 4. Configure JWT Secret
 
 
 
@@ -490,7 +490,7 @@ Set a local JWT key:
 
 ```bash
 
-dotnet user-secrets set "Jwt:Key" "YOUR\_STRONG\_LOCAL\_JWT\_SECRET\_KEY"
+dotnet user-secrets set "Jwt:Key" "YOUR_STRONG_LOCAL_JWT_SECRET_KEY"
 
 ```
 
@@ -500,11 +500,11 @@ Do not commit a real JWT secret to the repository.
 
 
 
-\---
+---
 
 
 
-\## 5. Database Migration and Seed Data
+## 5. Database Migration and Seed Data
 
 
 
@@ -532,17 +532,17 @@ Therefore, when the API runs against a fresh SQL Server database:
 
 
 
-1\. Required database tables are created through migrations.
+1. Required database tables are created through migrations.
 
-2\. Demo users are created when they do not already exist.
+2. Demo users are created when they do not already exist.
 
-3\. A sample Class/Course is created.
+3. A sample Class/Course is created.
 
-4\. A sample Subject is created.
+4. A sample Subject is created.
 
-5\. The Demo Teacher is assigned to the sample Class/Course and Subject.
+5. The Demo Teacher is assigned to the sample Class/Course and Subject.
 
-6\. The Demo Student is enrolled in the sample Class/Course.
+6. The Demo Student is enrolled in the sample Class/Course.
 
 
 
@@ -570,11 +570,11 @@ The seed logic checks existing data before inserting records to avoid duplicate 
 
 
 
-\---
+---
 
 
 
-\## 6. Run Backend API
+## 6. Run Backend API
 
 
 
@@ -606,11 +606,11 @@ Alternatively, run the API from Visual Studio.
 
 
 
-\---
+---
 
 
 
-\## Swagger / OpenAPI
+## Swagger / OpenAPI
 
 
 
@@ -630,21 +630,21 @@ For authenticated endpoints:
 
 
 
-1\. Login using `/api/Auth/login`
+1. Login using `/api/Auth/login`
 
-2\. Copy the JWT token
+2. Copy the JWT token
 
-3\. Click \*\*Authorize\*\* in Swagger
+3. Click **Authorize** in Swagger
 
-4\. Enter the raw JWT token
-
-
-
-\---
+4. Enter the raw JWT token
 
 
 
-\# Frontend Setup
+---
+
+
+
+# Frontend Setup
 
 
 
@@ -660,11 +660,11 @@ cd assignment-submission-frontend
 
 
 
-\---
+---
 
 
 
-\## 1. Install Dependencies
+## 1. Install Dependencies
 
 
 
@@ -676,11 +676,11 @@ npm install
 
 
 
-\---
+---
 
 
 
-\## 2. Configure Frontend Environment
+## 2. Configure Frontend Environment
 
 
 
@@ -702,7 +702,7 @@ Its default value is:
 
 ```env
 
-NEXT\_PUBLIC\_API\_URL=https://localhost:7123/api
+NEXT_PUBLIC_API_URL=https://localhost:7123/api
 
 ```
 
@@ -732,11 +732,11 @@ Update the API URL in `.env.local` if your ASP.NET Core API uses a different HTT
 
 
 
-\---
+---
 
 
 
-\## 3. Run Frontend
+## 3. Run Frontend
 
 
 
@@ -760,11 +760,11 @@ http://localhost:3000
 
 
 
-\---
+---
 
 
 
-\## 4. Production Build
+## 4. Production Build
 
 
 
@@ -780,11 +780,11 @@ npm run build
 
 
 
-\---
+---
 
 
 
-\# Demo Credentials
+# Demo Credentials
 
 
 
@@ -792,7 +792,7 @@ The application includes working demo accounts for all three required roles.
 
 
 
-\## Admin
+## Admin
 
 
 
@@ -806,7 +806,7 @@ Password: Admin@123
 
 
 
-\## Teacher
+## Teacher
 
 
 
@@ -820,7 +820,7 @@ Password: Teacher@123
 
 
 
-\## Student
+## Student
 
 
 
@@ -834,11 +834,11 @@ Password: Student@123
 
 
 
-\---
+---
 
 
 
-\# Running Tests
+# Running Tests
 
 
 
@@ -876,45 +876,45 @@ The tests cover important Assignment and Submission business rules, including:
 
 
 
-\* Creating an Assignment with an invalid deadline
+* Creating an Assignment with an invalid deadline
 
-\* Teacher/Class/Subject assignment validation
+* Teacher/Class/Subject assignment validation
 
-\* Teacher ownership validation
+* Teacher ownership validation
 
-\* Assignment deletion rules
+* Assignment deletion rules
 
-\* Student access to draft Assignments
+* Student access to draft Assignments
 
-\* Submission deadline validation
+* Submission deadline validation
 
-\* Published Assignment validation
+* Published Assignment validation
 
-\* Student enrollment validation
+* Student enrollment validation
 
-\* Duplicate Submission prevention
+* Duplicate Submission prevention
 
-\* Submission update rules
+* Submission update rules
 
-\* Submission ownership
+* Submission ownership
 
-\* Teacher review authorization
+* Teacher review authorization
 
-\* Maximum Marks validation
+* Maximum Marks validation
 
-\* Valid Submission creation
+* Valid Submission creation
 
-\* Valid Submission update
+* Valid Submission update
 
-\* Valid Submission review
-
-
-
-\---
+* Valid Submission review
 
 
 
-\# Authentication and Authorization
+---
+
+
+
+# Authentication and Authorization
 
 
 
@@ -926,13 +926,13 @@ JWT contains:
 
 
 
-\* User ID
+* User ID
 
-\* Full Name
+* Full Name
 
-\* Email
+* Email
 
-\* Role
+* Role
 
 
 
@@ -962,11 +962,11 @@ Frontend role checks are used for navigation and user experience, while the back
 
 
 
-\---
+---
 
 
 
-\# Important Business Rules
+# Important Business Rules
 
 
 
@@ -974,47 +974,47 @@ The application implements the following rules:
 
 
 
-\* Only Teachers can create Assignments.
+* Only Teachers can create Assignments.
 
-\* A Teacher can create an Assignment only for a Class/Course and Subject assigned to that Teacher.
+* A Teacher can create an Assignment only for a Class/Course and Subject assigned to that Teacher.
 
-\* Assignment deadlines must be in the future when creating or updating an Assignment.
+* Assignment deadlines must be in the future when creating or updating an Assignment.
 
-\* Students only see published Assignments belonging to their active enrolled Class/Course.
+* Students only see published Assignments belonging to their active enrolled Class/Course.
 
-\* Students cannot submit to Draft Assignments.
+* Students cannot submit to Draft Assignments.
 
-\* Students cannot submit after the Assignment deadline.
+* Students cannot submit after the Assignment deadline.
 
-\* Students must have an active enrollment in the Assignment's Class/Course.
+* Students must have an active enrollment in the Assignment's Class/Course.
 
-\* A Student can have only one Submission per Assignment.
+* A Student can have only one Submission per Assignment.
 
-\* Submission Updates are allowed only before the deadline and only when enabled by the Teacher.
+* Submission Updates are allowed only before the deadline and only when enabled by the Teacher.
 
-\* Teachers can review only Submissions belonging to their own Assignments.
+* Teachers can review only Submissions belonging to their own Assignments.
 
-\* Marks cannot exceed the Assignment's Maximum Marks.
+* Marks cannot exceed the Assignment's Maximum Marks.
 
-\* Supported Submission statuses are:
-
-
-
-&#x20; \* Submitted
-
-&#x20; \* Reviewed
-
-&#x20; \* NeedsRevision
-
-\* An Assignment cannot be deleted after Student Submissions exist.
+* Supported Submission statuses are:
 
 
 
-\---
+  * Submitted
+
+  * Reviewed
+
+  * NeedsRevision
+
+* An Assignment cannot be deleted after Student Submissions exist.
 
 
 
-\# Form Validation
+---
+
+
+
+# Form Validation
 
 
 
@@ -1026,43 +1026,43 @@ Examples include:
 
 
 
-\* Required fields
+* Required fields
 
-\* Email validation
+* Email validation
 
-\* Password minimum length
+* Password minimum length
 
-\* Maximum field lengths
+* Maximum field lengths
 
-\* Valid role validation
+* Valid role validation
 
-\* Assignment title length
+* Assignment title length
 
-\* Future Assignment deadline
+* Future Assignment deadline
 
-\* Maximum Marks range
+* Maximum Marks range
 
-\* Valid Teacher/Class/Subject selection
+* Valid Teacher/Class/Subject selection
 
-\* Valid Student/Class enrollment
+* Valid Student/Class enrollment
 
-\* Required Submission answer
+* Required Submission answer
 
-\* Submission deadline checks
+* Submission deadline checks
 
-\* Review Marks validation
-
-
-
-Backend Data Annotation validation is supported through ASP.NET Core `\[ApiController]`.
+* Review Marks validation
 
 
 
-\---
+Backend Data Annotation validation is supported through ASP.NET Core `[ApiController]`.
 
 
 
-\# Error Handling
+---
+
+
+
+# Error Handling
 
 
 
@@ -1074,13 +1074,13 @@ Examples:
 
 
 
-\* `400 Bad Request`
+* `400 Bad Request`
 
-\* `401 Unauthorized`
+* `401 Unauthorized`
 
-\* `403 Forbidden`
+* `403 Forbidden`
 
-\* `404 Not Found`
+* `404 Not Found`
 
 
 
@@ -1092,11 +1092,11 @@ The frontend also handles API errors and displays user-friendly messages.
 
 
 
-\---
+---
 
 
 
-\# Logging
+# Logging
 
 
 
@@ -1104,33 +1104,33 @@ ASP.NET Core `ILogger` is used for important operations, including:
 
 
 
-\* User creation
+* User creation
 
-\* Class/Course creation and update
+* Class/Course creation and update
 
-\* Subject creation and update
+* Subject creation and update
 
-\* Teacher/Class/Subject assignment
+* Teacher/Class/Subject assignment
 
-\* Student enrollment
+* Student enrollment
 
-\* Assignment creation
+* Assignment creation
 
-\* Submission creation
+* Submission creation
 
-\* Submission update
+* Submission update
 
-\* Submission review
+* Submission review
 
-\* Successful login
-
-
-
-\---
+* Successful login
 
 
 
-\# Seed / Sample Data
+---
+
+
+
+# Seed / Sample Data
 
 
 
@@ -1156,11 +1156,11 @@ Mathematics
 
 Demo Teacher
 
-&#x20;   ↓
+    ↓
 
 Class 8
 
-&#x20;   ↓
+    ↓
 
 Mathematics
 
@@ -1168,7 +1168,7 @@ Mathematics
 
 Demo Student
 
-&#x20;   ↓
+    ↓
 
 Class 8
 
@@ -1180,11 +1180,11 @@ Assignments and Submissions are intentionally not automatically seeded so that t
 
 
 
-\---
+---
 
 
 
-\# Assumptions and Design Decisions
+# Assumptions and Design Decisions
 
 
 
@@ -1192,7 +1192,7 @@ The following assumptions were made where the project brief did not explicitly d
 
 
 
-\### 1. SQL Server
+### 1. SQL Server
 
 
 
@@ -1200,7 +1200,7 @@ SQL Server was selected as an equivalent database technology suitable for implem
 
 
 
-\### 2. Submission Type
+### 2. Submission Type
 
 
 
@@ -1212,7 +1212,7 @@ File upload support was not added because the required Student responsibility is
 
 
 
-\### 3. Editing Reviewed Submissions
+### 3. Editing Reviewed Submissions
 
 
 
@@ -1220,13 +1220,13 @@ If a Student updates an existing Submission before the deadline and updates are 
 
 
 
-\* Status is reset to `Submitted`
+* Status is reset to `Submitted`
 
-\* Existing Marks are cleared
+* Existing Marks are cleared
 
-\* Existing Feedback is cleared
+* Existing Feedback is cleared
 
-\* Review timestamp is cleared
+* Review timestamp is cleared
 
 
 
@@ -1234,7 +1234,7 @@ This ensures the Teacher reviews the latest version of the Student's answer.
 
 
 
-\### 4. Assignment Deletion
+### 4. Assignment Deletion
 
 
 
@@ -1246,7 +1246,7 @@ This prevents accidental loss of Student Submission records.
 
 
 
-\### 5. Application-Level Settings
+### 5. Application-Level Settings
 
 
 
@@ -1254,7 +1254,7 @@ No separate application-settings module was added because no mandatory applicati
 
 
 
-\### 6. Backend Architecture
+### 6. Backend Architecture
 
 
 
@@ -1262,29 +1262,29 @@ A simple controller-based architecture using Entity Framework Core directly thro
 
 
 
-\---
+---
 
 
 
-\# Known Limitations
+# Known Limitations
 
 
 
-\* File attachment upload is not implemented.
+* File attachment upload is not implemented.
 
-\* Notifications are not implemented.
+* Notifications are not implemented.
 
-\* Pagination is not implemented.
+* Pagination is not implemented.
 
-\* Advanced filtering/search is not implemented.
+* Advanced filtering/search is not implemented.
 
-\* Docker configuration is not included.
+* Docker configuration is not included.
 
-\* No live production deployment URL is included.
+* No live production deployment URL is included.
 
-\* CORS is configured for the local frontend at `http://localhost:3000`.
+* CORS is configured for the local frontend at `http://localhost:3000`.
 
-\* The default local database configuration assumes SQL Server Express is available as `.\\SQLEXPRESS`.
+* The default local database configuration assumes SQL Server Express is available as `.\SQLEXPRESS`.
 
 
 
@@ -1292,37 +1292,37 @@ These features are outside the mandatory project workflow or were listed as opti
 
 
 
-\---
+---
 
 
 
-\# Security Notes
+# Security Notes
 
 
 
-\* Passwords are stored as password hashes.
+* Passwords are stored as password hashes.
 
-\* JWT authentication is used for protected API access.
+* JWT authentication is used for protected API access.
 
-\* Role-based authorization is enforced by the backend API.
+* Role-based authorization is enforced by the backend API.
 
-\* Real JWT secrets should not be committed to Git.
+* Real JWT secrets should not be committed to Git.
 
-\* Local JWT secrets can be stored using ASP.NET Core User Secrets.
+* Local JWT secrets can be stored using ASP.NET Core User Secrets.
 
-\* `.env.local` is excluded from Git.
+* `.env.local` is excluded from Git.
 
-\* `.env.example` contains configuration examples only.
+* `.env.example` contains configuration examples only.
 
-\* Build outputs and local IDE files are excluded through `.gitignore`.
-
-
-
-\---
+* Build outputs and local IDE files are excluded through `.gitignore`.
 
 
 
-\# Final Verification
+---
+
+
+
+# Final Verification
 
 
 
@@ -1330,41 +1330,41 @@ Before submission, the following should be verified:
 
 
 
-\* Backend builds successfully
+* Backend builds successfully
 
-\* Frontend builds successfully
+* Frontend builds successfully
 
-\* All automated tests pass
+* All automated tests pass
 
-\* SQL Server database can be created from migrations
+* SQL Server database can be created from migrations
 
-\* Seed/sample data is created
+* Seed/sample data is created
 
-\* Admin login works
+* Admin login works
 
-\* Teacher login works
+* Teacher login works
 
-\* Student login works
+* Student login works
 
-\* Role-based API restrictions work
+* Role-based API restrictions work
 
-\* Swagger runs successfully
+* Swagger runs successfully
 
-\* No real secrets are committed
+* No real secrets are committed
 
-\* `.env.example` is included
+* `.env.example` is included
 
-\* Migration files are included
+* Migration files are included
 
-\* Frontend and backend are included in the same repository
-
-
-
-\---
+* Frontend and backend are included in the same repository
 
 
 
-\## Project Status
+---
+
+
+
+## Project Status
 
 
 
